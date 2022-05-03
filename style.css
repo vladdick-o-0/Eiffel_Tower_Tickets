@@ -1,6 +1,22 @@
 body {
     font-family: "Times New Roman", sans-serif;
 }
+h1 {
+    text-align: center;
+}
 .money {
     color: green;
+}
+.video {
+    margin: 5px 5px 5px 5px;
+}
+.copyright {
+    text-align: center;
+}
+.contact_us {
+    background-color: #9c9c9c;
+    border: 2px solid black;
+}
+.tickets {
+    margin: 10px 10px;
 }
