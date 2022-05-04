@@ -14,31 +14,43 @@
         <li><a href="contact.html" text="Contacts">Contacts</a></li>
     </ul>
 </nav>
-<h1>Tickets</h1>
-<b>Prices:</b>
-<table>
+<h1>Eiffel tower ticket prices</h1>
+<table class="prices">
     <tr>
         <th>Category</th>
-        <th>Price</th>
+        <th>Adult</th>
+        <th>Children(aged 7-16)</th>
+        <th>Children(aged under 7)</th>
     </tr>
     <tr>
-        <td>Adults</td>
-        <td class="money">12$</td>
+        <td>Lift to the 2nd floor</td>
+        <td>17€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>10€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>free</td>
     </tr>
     <tr>
-        <td>Children</td>
-        <td class="money">5$</td>
+        <td>Stairs to the 2nd floor</td>
+        <td>12€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>7€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>free</td>
+    </tr>
+    <tr>
+        <td>Lift to the top floor</td>
+        <td>25€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>18€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>free</td>
+    </tr>
+    <tr>
+        <td>Stairs to the 2nd floor + lift to the top floor</td>
+        <td>20€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>15€ <input class="to_cart" type="button" value="To cart"></td>
+        <td>free</td>
     </tr>
 </table>
-<section class="tickets">
-    <label for="adults">Adults: </label>
-    <input type="number" id="adults" placeholder="0">
-    <br>
-    <label for="children">Children: </label>
-    <input type="number" id="children" placeholder="0">
-    <br>
-    <input type="button" value="Buy">
-</section>
+<br>
+<div>
+    <b style="color: red">NOTE: </b>You must present an identity document to verify your age.
+</div>
 <footer>
     <p class="copyright">&copy Copyright</p>
 </footer>
