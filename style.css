@@ -109,3 +109,7 @@ h1 {
 .to_cart:hover {
     background-color: palegoldenrod;
 }
+.map {
+    text-align: center;
+    border: 1px solid black;
+}
