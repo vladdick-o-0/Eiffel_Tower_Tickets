@@ -1,0 +1,86 @@
+body {
+    background: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c7c7c7;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    margin-bottom: 20px;
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+nav ul li a:before {
+    content: attr(text);
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-color: #81f1b2;
+    transform: rotateX(-270deg);
+    transform-origin: top;
+    transition: 0.5s;
+}
+
+nav ul li a:hover:before {
+    transform: rotate(0deg);
+}
+
+h1 {
+    text-align: center;
+}
+
+.money {
+    color: green;
+}
+
+.video {
+    margin: 5px 5px 5px 5px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.contact_us {
+    background-color: #9c9c9c;
+    border: 2px solid black;
+}
+
+.tickets {
+    margin: 10px 10px;
+}
